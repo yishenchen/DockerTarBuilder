@@ -6,7 +6,7 @@ on:
       docker_images:
         description: 'webrtc'
         required: true
-        default: 'mpromonet/webrtc-streamer:latest'  # 设置默认的 Docker 镜像列表
+        default: 'mpromonet/webrtc-streamer:master-amd64'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
