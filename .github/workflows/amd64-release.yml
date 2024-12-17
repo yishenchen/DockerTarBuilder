@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: '请填写docker镜像名称,多个用英文逗号分开'
+        description: 'webrtc'
         required: true
-        default: 'alpine:latest,alpine/curl,busybox:stable-glibc'
+        default: 'mpromonet/webrtc-streamer:master-amd64'
 
 jobs:
   pull_and_package:
