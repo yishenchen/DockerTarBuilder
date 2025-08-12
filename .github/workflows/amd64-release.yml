@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'webrtc'
+        description: 'emqx'
         required: true
-        default: 'mpromonet/webrtc-streamer:master-amd64'
+        default: 'emqx/emqx:latest'
 
 jobs:
   pull_and_package:
